@@ -1,66 +1,66 @@
-body{
-  background-color: #143347;
+body {
+	background-color: #143347;
 }
 .card-container {
-  background-color: #0f1a2e;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px; /* ajuste o valor conforme necessário */
+	background-color: #0f1a2e;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px; /* ajuste o valor conforme necessário */
 }
 
 .card {
-  width: 300px; /* ajuste o tamanho do card conforme necessário */
-  margin: 10px; /* ajuste o espaçamento entre os cards conforme necessário */
+	width: 300px; /* ajuste o tamanho do card conforme necessário */
+	margin: 10px; /* ajuste o espaçamento entre os cards conforme necessário */
 }
 
 .card-body {
-  background-color: #143347;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	background-color: #143347;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .game-info {
-  border-radius: 10px;
-  border: 8px solid;
-  background-color: #0e3835;
-  text-align: center;
-  margin: 20px;
+	border-radius: 10px;
+	border: 8px solid;
+	background-color: #0e3835;
+	text-align: center;
+	margin: 20px;
 }
 
 .card-title,
 .card-text {
-  color: #fff;
+	color: #fff;
 }
 
 .title {
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .description {
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 20px;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 20px;
 }
 
 .play-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
 }
 
 .play-button:hover {
-  background-color: #0056b3;
+	background-color: #0056b3;
 }
 .centered-image1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
