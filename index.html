@@ -1,248 +1,468 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="./style/index.css">
-    <title>Site Pac</title>
-  </head>
-  <body>
-    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
-        <div class="container-fluid col-11 m-auto">
-          <a class="navbar-brand">WeFive</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-        </div>
-    </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" style="top: 30px;">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/carrol01.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/carrol02.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/carrol03.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Proximo</span>
-        </button>
-    </div>
-    <div class="card-container">
-      <div class="card">
-        <img src="./img/3-pt2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Missão</h5>
-          <p class="card-text">Você está viajando para um multiverso, se prepare porque não se sabe como será. O destino da humanidade depende desta missão lendária.</p>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Veja
-</button>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./style/index.css" />
+		<title>Site Pac</title>
+	</head>
+	<body>
+		<div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-indicators">
+				<button
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img
+						src="./img/carrol01.png"
+						class="d-block w-100"
+						alt="..." />
+				</div>
+				<div class="carousel-item">
+					<img
+						src="./img/carrol02.png"
+						class="d-block w-100"
+						alt="..." />
+				</div>
+				<div class="carousel-item">
+					<img
+						src="./img/carrol03.png"
+						class="d-block w-100"
+						alt="..." />
+				</div>
+			</div>
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span
+					class="carousel-control-prev-icon"
+					aria-hidden="true"></span>
+				<span class="visually-hidden">Anterior</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span
+					class="carousel-control-next-icon"
+					aria-hidden="true"></span>
+				<span class="visually-hidden">Proximo</span>
+			</button>
+		</div>
+		<div class="card-container">
+			<div class="card">
+				<img src="./img/3-pt2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Missão</h5>
+					<p class="card-text"
+						>Você está viajando para um multiverso, se prepare
+						porque não se sabe como será. O destino da humanidade
+						depende desta missão lendária.</p
+					>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-bs-toggle="modal"
+						data-bs-target="#exampleModal">
+						Veja
+					</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">A viagem começou</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./img/3-pt2.png" alt="" class="centered-image1">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="exampleModal"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1
+										class="modal-title fs-5"
+										id="exampleModalLabel"
+										>A viagem começou</h1
+									>
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<img
+										src="./img/3-pt2.png"
+										alt=""
+										class="centered-image1" />
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-bs-dismiss="modal"
+										>Fechar</button
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
-    
-      <div class="card">
-        <img src="./img/12-pt2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Nave</h5>
-          <p class="card-text">Com seu design aerodinâmico e tecnologia de ponta, ela tem o poder de levar a humanidade a novos horizontes e explorar os mistérios do universo.</p>
-             <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-  Veja
-</button>
+			<div class="card">
+				<img src="./img/12-pt2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Nave</h5>
+					<p class="card-text"
+						>Com seu design aerodinâmico e tecnologia de ponta, ela
+						tem o poder de levar a humanidade a novos horizontes e
+						explorar os mistérios do universo.</p
+					>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-bs-toggle="modal"
+						data-bs-target="#exampleModal2">
+						Veja
+					</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">A viagem começou</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./img/12-pt2.png" alt="" class="centered-image1">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="exampleModal2"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1
+										class="modal-title fs-5"
+										id="exampleModalLabel"
+										>A viagem começou</h1
+									>
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<img
+										src="./img/12-pt2.png"
+										alt=""
+										class="centered-image1" />
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-bs-dismiss="modal"
+										>Fechar</button
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
+			<div class="card">
+				<img src="./img/6-pt2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Asteroide</h5>
+					<p class="card-text"
+						>Um asteroide se chocou com outro bem próximo da terra e
+						todos estão com muito medo, sua perspicácia será testada
+						a todo instânte desta missão</p
+					>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-bs-toggle="modal"
+						data-bs-target="#exampleModal3">
+						Veja
+					</button>
 
-      <div class="card">
-        <img src="./img/6-pt2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Asteroide</h5>
-          <p class="card-text">Um asteroide se chocou com outro bem próximo da terra e todos estão com muito medo, sua perspicácia será testada a todo instânte desta missão</p>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-  Veja
-</button>
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="exampleModal3"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1
+										class="modal-title fs-5"
+										id="exampleModalLabel"
+										>O asteroide se aproxima</h1
+									>
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<img
+										src="./img/6-pt2.png"
+										alt=""
+										class="centered-image1" />
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-bs-dismiss="modal"
+										>Fechar</button
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">O asteroide se aproxima</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./img/6-pt2.png" alt="" class="centered-image1">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+			<div class="card">
+				<img src="./img/13-pt2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Vença!!</h5>
+					<p class="card-text"
+						>Que sua missão seja bem sucedida, esperamos você no
+						central de controle da terra principal. Salve este
+						multiverso e então salvará todos os mundos
+					</p>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-bs-toggle="modal"
+						data-bs-target="#exampleModal4">
+						Veja
+					</button>
 
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="exampleModal4"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1
+										class="modal-title fs-5"
+										id="exampleModalLabel"
+										>O asteroide se aproxima</h1
+									>
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<img
+										src="./img/13-pt2.png"
+										alt=""
+										class="centered-image1" />
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-bs-dismiss="modal"
+										>Fechar</button
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="game-info">
+			<h2 class="title">Space Asteroid</h2>
+			<p class="description"
+				>O jogo tem como objetivo salvar toda a humanidade de um final
+				trágico e triste. Destrua até o último asteroide para que o
+				mundo veja mais um alvorecer.</p
+			>
+			<hr />
+			<a
+				target="_blank"
+				href="https://gd.games/instant-builds/bedf308c-1212-44f5-9713-a5a3733a2de1"
+				class="play-button"
+				>Jogar Agora</a
+			>
+			<hr />
+		</div>
 
-      <div class="card">
-        <img src="./img/13-pt2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Vença!!</h5>
-          <p class="card-text">Que sua missão seja bem sucedida, esperamos você no central de controle da terra principal. Salve este multiverso e então salvará todos os mundos </p>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-  Veja
-</button>
+		<div class="card-group">
+			<div class="card">
+				<img src="./img/Aluno01.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Gustavo William Larsen</h5>
+					<p class="card-text"
+						>"Programação é como uma dança entre o homem e a
+						máquina, em perfeita sincronia."</p
+					>
+					<p class="card-text">Gamer Desing</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./img/Aluno02.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Luís Felipe Mondini</h5>
+					<p class="card-text"
+						>"A programação é a arte de transformar café em
+						código."</p
+					>
+					<p class="card-text">Motion Desin</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./img/Aluno03.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Guilherme Henrique Bessa</h5>
+					<p class="card-text"
+						>"Programadores não erram, eles apenas criam versões
+						alternativas do resultado esperado."</p
+					>
+					<p class="card-text">Web Developer</p>
+				</div>
+			</div>
+		</div>
+		<div class="mx-5" style="color: white">
+			<h1 class="mt-5">História</h1>
+			<p class="mt-2">
+				No distante ano de 2237, a humanidade enfrenta sua maior ameaça:
+				um enxame de asteroides alienígenas avança impiedosamente em
+				direção à Terra. Esses astros misteriosos, conhecidos como
+				"Eternus", possuem um poder destrutivo capaz de aniquilar toda a
+				vida humana. Diante dessa iminente catástrofe, a humanidade
+				lança uma última esperança no espaço sideral: a nave Estrela do
+				Destino.
+			</p>
+			<p class="my-2"
+				>A bordo da nave, você assume o papel do intrépido piloto Jake
+				Lawson, um exímio atirador espacial. Enquanto o mapa de
+				asteroides se estende diante de você, lembranças de grandes
+				filmes de ação e aventura invadem sua mente, criando uma
+				atmosfera de tensão e desafio.
+			</p>
+			<p class="my-2"
+				>No início de sua jornada, você se depara com um fluxo constante
+				de asteroides, evocando a determinação implacável de "O
+				Exterminador do Futuro" . Sua nave manobra habilmente,
+				desviando-se de colisões em frações de segundo e retalhando os
+				Eternus com tiros precisos, tal como o lendário Capitão
+				Nascimento em "Tropa de Elite".</p
+			>
+			<p class="my-2"
+				>À medida que a batalha prossegue, você se encontra em meio a
+				uma chuva de asteroides cada vez mais intensa. Lembra-se das
+				perseguições de tirar o fôlego de "Velozes e Furiosos",
+				impulsionando sua nave com uma coragem indomável. A alegria da
+				vitória irrompe em seu peito a cada asteroide destruído,
+				alimentando sua determinação.</p
+			>
+			<p class="my-2"
+				>Entretanto, em um momento de calmaria, surge um asteroide
+				diferente dos demais. Seu formato sinistro e aura maléfica
+				evocam imagens do poderoso anel de Mordor, de "O Senhor dos
+				Anéis". A sensação de perigo iminente se instala, e você se
+				prepara para enfrentar um desafio incomparável.
+			</p>
+			<p class="my-2"
+				>Enquanto batalha contra o asteroide sombrio, memórias de
+				vingança afloram em sua mente, como nos épicos de "Kill Bill" ou
+				"Gladiador". Você se torna uma força da natureza, determinado a
+				destruir aquele que ameaça tudo o que você ama. A cada tiro
+				certeiro, a sensação de redenção e triunfo se intensifica.
+			</p>
+			<p class="my-2"
+				>No clímax final da batalha, sua nave se encontra em meio a uma
+				tempestade cósmica. O mapa de asteroides se transforma em um
+				labirinto mortal, relembrando a tensão claustrofóbica de
+				"Gravidade". Você enfrenta seu maior desafio, canalizando a
+				bravura do Capitão América e a inteligência estratégica de
+				Sherlock Holmes.</p
+			>
+			<p class="my-2">
+				A tensão no espaço sideral se intensifica à medida que as naves
+				inimigas avançam em direção à Estrela do Destino. Cada manobra
+				evasiva e disparo preciso traz à mente a adrenalina dos filmes
+				de ação espacial, onde a habilidade do piloto pode decidir o
+				destino de toda uma guerra. <br />
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">O asteroide se aproxima</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="./img/13-pt2.png" alt="" class="centered-image1">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+				Você, como piloto da Estrela do Destino, enfrenta o desafio com
+				coragem e resiliência. Sua nave é equipada com armas avançadas,
+				capazes de confrontar as ameaças que se aproximam. As batalhas
+				espaciais são intensas e eletrizantes, lembrando os momentos de
+				confronto épico presentes em grandes sagas cinematográficas.<br /><br />
 
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
-    </div>
-    <div class="game-info">
-      <h2 class="title">Space Asteroid</h2>
-      <p class="description">O jogo tem como objetivo salvar toda a humanidade de um final trágico e triste. Destrua até o último asteroide para que o mundo veja mais um alvorecer.</p>
-     <hr>
-      <a href="https://gd.games/instant-builds/bedf308c-1212-44f5-9713-a5a3733a2de1" class="play-button">Jogar Agora</a>
-      <hr>
-    </div>
-    
-    <div class="card-group">
-      <div class="card">
-        <img src="./img/Aluno01.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Gustavo William Larsen</h5>
-          <p class="card-text">"Programação é como uma dança entre o homem e a máquina, em perfeita sincronia."</p>
-          <p class="card-text">Gamer Desing</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./img/Aluno02.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Luís Felipe Mondini</h5>
-          <p class="card-text">"A programação é a arte de transformar café em código."</p>
-          <p class="card-text">Motion Desin</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./img/Aluno03.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">"Programadores não erram, eles apenas criam versões alternativas do resultado esperado."</p>
-          <p class="card-text">Web Developer</p>
-        </div>
-      </div>
-    </div>
-    
+				Enquanto as naves inimigas lançam mísseis e rajadas de laser,
+				você utiliza sua destreza e estratégia para desviar dos ataques
+				e retaliar com precisão cirúrgica. Cada nave inimiga abatida
+				traz uma sensação de triunfo e alívio, mas a batalha está longe
+				de terminar.<br /><br />
 
+				No clímax da história, quando as forças inimigas parecem
+				inabaláveis, uma última investida é lançada contra a Estrela do
+				Destino. As naves inimigas se unem em uma formação devastadora,
+				como uma matilha de predadores sedentos por sangue.<br /><br />
 
-    
-    
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+				Com determinação inabalável, você enfrenta essa última onda de
+				ataques, canalizando a fúria e a sede de vingança. Cada disparo
+				certeiro é um passo em direção à vitória final. A emoção do
+				confronto se mistura com a determinação de proteger a humanidade
+				e garantir um futuro seguro.<br /><br />
+
+				Finalmente, a última nave inimiga é abatida. O silêncio
+				prevalece no espaço, enquanto você observa o caos dissipar-se. A
+				Estrela do Destino emerge como a vencedora dessa batalha
+				desafiadora.<br /><br />
+
+				A humanidade é salva mais uma vez, graças à sua coragem e
+				habilidades como piloto. A alegria e a gratidão se espalham
+				entre os sobreviventes, enquanto a Estrela do Destino retorna
+				triunfante para a Terra, onde é recebida como um símbolo de
+				esperança e heroísmo.<br /><br />
+
+				Embora as cicatrizes dessa guerra permaneçam, a determinação da
+				humanidade prevalece. A história da Estrela do Destino ecoará
+				nas estrelas, lembrando a todos que, com coragem e união, é
+				possível superar qualquer desafio.<br /><br />
+			</p>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
